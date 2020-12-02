@@ -1,0 +1,52 @@
+/* Seleccionar los elementos que tienen ese atributo */
+
+[href] {
+    color: red;
+}
+
+/* Seleccionar los elementos que tienen ese atributo y ese valor */
+
+[href="#"] {
+    color: green;
+}
+
+/* Seleccionar los elementos que tienen ese atributo y empizan por ese valor */
+
+[class^="rojo"]{
+    color: purple;
+}
+
+/* Seleccionar los elementos que tienen ese atributo y terminan por ese valor*/
+
+[class$="rojo"] {
+    color: steelblue;
+}
+
+/* Seleccionar los elementos que tienen ese atributo y contengan ese valor */
+
+[class*="ver"] {
+    color: brown;
+}
+
+h1 + h2 {
+    color: red;
+}
+
+/* Selector de hermano general */
+
+h1 ~ h3 {
+    color: blue;
+}
+
+/* Selector de hijo directo */
+
+p > span {
+    color: red;
+}
+
+/* Selectores descendentes */
+
+div span {
+    color: purple;
+}
+

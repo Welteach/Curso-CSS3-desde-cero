@@ -1,0 +1,77 @@
+/*
+Pseudoclases
+
+Son selectores que reaccionan en tiempo real detectando la interacción del usuario con algunos elementos.
+
+Funcionan con todos los selectores de css
+
+No están atados a ningún elemento
+
+Dynamic
+    :link (links) - Link no visitado
+    :visited (links) - Link visitado
+    :active (links) - El momento del click
+    :hover - Al poner el mouse sobre el elemento
+    :focus - Cuando el elemento tiene el foco
+
+Target
+    :target - Elemento es objetivo de un marcador o ancla
+
+Language
+    :lang() - Elemento que contiene el atributo lang que especifiquemos
+*/
+
+/*
+    ===Ejercicios PSEUDOCLASES I===
+
+*/
+
+.link:link {
+    color: red;
+}
+
+.link:visited {
+    color: chartreuse;
+}
+
+.link:active {
+    color: cyan;
+    background: red;
+}
+
+.title:hover {
+    color: blueviolet;
+}
+
+.input:focus {
+    background: green;
+}
+
+.menu {
+    background: lightskyblue;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.text {
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+
+.text:target {
+    color: red;
+}
+
+.span:lang(en){
+    color: red;
+}
+
+.span:lang(es){
+    color: blue;
+}

@@ -1,0 +1,58 @@
+.input,
+.label {
+    display: block;
+}
+
+/* Pseudoclases de estado
+
+UI States
+    :enabled
+    :disabled
+    :checked
+    :in-range
+    :out-of-range
+    :required
+    :optional
+    :valid
+    :invalid
+    :read-only
+    :read-write
+*/
+
+.input:enabled {
+    background: red;
+}
+
+.input:disabled {
+    background: yellow;
+    border: none;
+}
+
+.input:checked + label {
+    font-size: 2em;
+    color: blue;
+}
+
+.input:in-range {
+    background: green;
+}
+
+.input:out-of-range {
+    background: blue;
+}
+
+.input:optional {
+    background: purple;
+}
+
+.input:required {
+    background: lightcoral;
+}
+
+.input:valid {
+    background: green;
+}
+
+.input:invalid {
+    background: red;
+}

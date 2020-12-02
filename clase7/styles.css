@@ -1,0 +1,52 @@
+/* 
+Margin: 1px; (top right bottom left)
+Margin: 1px 2px; (Y X)
+Margin: 1px 2px 3px; (top, X, bottom)
+Margin: 1px 2px 3px 4px; (top right bottom left)
+
+Podemos aplicar las propiedades por separado
+
+Margin-top: 1px;
+Margin-rigt: 2px;
+Margin-bottom: 3px;
+Margin-left: 4px;
+
+*/
+
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background: lightgreen;
+    margin: 10px 20px 30px 40px;
+}
+
+/* 
+Padding :  1px; (top right bottom left)
+Padding :  1px 2px; (Y X)
+Padding : 1px 2px 3px; (top, X, bottom)
+Padding : 1px 2px 3px 4px; (top right bottom left)
+
+Podemos aplicar las propiedades por separado
+
+Padding-top: 1px;
+Padding-rigt: 2px;
+Padding-bottom: 3px;
+Padding-left: 4px;
+
+*/
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background: lightcoral;
+    border: 2px solid blue;
+    padding: 50px 20px 30px 40px;
+}
+
+.box2-content{
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border: 2px solid red;
+}

@@ -1,0 +1,17 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');*/
+
+@font-face {
+   src: url('fonts/Righteous-Regular.ttf');
+   font-family: 'miFuente'; 
+}
+
+.title {
+    font-family: 'miFuente';
+    font-size: 68px;
+    font-style: normal;
+}
+
+.paragraph {
+    font-family: 'miFuente';
+    font-weight: lighter;
+}

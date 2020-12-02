@@ -1,0 +1,24 @@
+/* Etiqueta -> 1
+   Clase y pseudoclases -> 10
+   Id -> 100
+   Estilos en línea -> 1000
+   !important -> Gana a todo;
+
+   important -> especificidad -> cascada
+*/
+
+#parrafo {
+    color: orange !important;
+}
+
+.parrafo {
+    color: green;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    color: blue;
+}

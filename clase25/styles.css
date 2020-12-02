@@ -1,0 +1,104 @@
+/*
+Media Query
+
+Las media queries son un módulo CSS3 que permite adaptar la representación del contenido a características del 
+dispositivo como la resolución de pantalla o la presencia de características de accesibilidad como el braille.
+
+*/
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+}
+
+header,
+footer {
+    width: 100%;
+    padding: 40px 0;
+    background: crimson;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    padding: 20px 0;
+    background: rgb(27, 224, 20);
+    text-align: center;
+}
+
+article,
+aside {
+    width: 29%;
+    padding: 90px 0;
+    background: rgb(64, 30, 214);
+    text-align: center;
+    display: inline-block;
+}
+
+section {
+    width: 40%;
+    padding: 90px 0;
+    background: rgb(64, 30, 214);
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+@media screen and (max-width: 500px){
+    /*
+    body {
+        background-color: #fff;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #000;
+        margin-top: 30px;
+    }*/
+
+    article,
+    section,
+    aside {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    /*
+    body {
+        background-color: rgb(214, 23, 23);
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(101, 196, 24);
+        margin-top: 30px;
+    }*/
+
+    article,
+    section {
+        width: 49%;
+    }
+    aside {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 901px){
+    /*
+    body {
+        background-color: rgb(214, 23, 150);
+    }
+    
+    h1 {
+        text-align: center;
+        color: rgb(206, 226, 28);
+        margin-top: 30px;
+    }*/
+}

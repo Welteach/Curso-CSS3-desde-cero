@@ -1,0 +1,35 @@
+/* Selectores de etiqueta */
+
+p {
+    color: blue;
+}
+
+h1 {
+    color: green;
+}
+
+/* Selectores de clase */
+
+.title {
+    color: blue;
+}
+
+.text {
+    color: blueviolet;
+}
+
+/* Selectores de ID */
+
+#title {
+    color: aqua;
+}
+
+#text {
+    color: #000;
+}
+
+/* Selectores universales */
+
+* {
+    color: red !important;
+}
